@@ -106,8 +106,8 @@
                   <div class="u-size-60">
                     <div class="u-layout-row">
                       <div class="u-align-justify u-container-style u-grey-80 u-layout-cell u-size-60 u-layout-cell-2">
-                        <div class="u-container-layout u-valign-top u-container-layout-2">
-                          <h2 class="u-align-center u-text u-text-default u-text-1"> A Inspiração</h2>
+                        <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-2">
+                          <h2 class="u-align-center u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1"> A Inspiração</h2>
                           <p class="u-text u-text-2">A imagem do avô continua nítida nas memórias de Rafael Pereira. Mesmo sentado numa cadeira de rodas, Luís da Conceição Lopes trabalhou quase a vida toda na antiga Barbearia da Ribeira, em Viseu — ora a fazer a barba aos conhecidos da terra, ora a ajeitar o cabelo de quem ainda o tinha. Foi ali que aprendeu tudo o que sabia e que, entre conversas animadas, entoava a frase que o neto ainda repete: “depressa e bem, não há quem”.<br>Embora não sonhasse trabalhar como barbeiro, o fundador deixou-se impressionar pelo exemplo do homem que cresceu a admirar.&nbsp;<br>“Morreu muito cedo e um dos sonhos que tinha era abrir um espaço só dele. Gosto muito desta profissão, mas queria sobretudo cumprir o objetivo que ele não conseguiu ver realizado”,<br>
                             <br>O sonho do avô acabou por ser cumprido e ganhou um nome: <span style="font-weight: 700;">Individus</span>
                           </p>
@@ -200,7 +200,7 @@
         <div class="u-layout" style="">
           <div class="u-layout-row" style="">
             <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
-              <div class="u-container-layout u-container-layout-1">
+              <div class="u-container-layout u-valign-bottom-xs u-container-layout-1">
                 <p class="u-align-justify u-text u-text-1"> Vem dar vida às tuas ideias com o tatuador Nuno Marques - mais conhecido como Rumo. Os seus desenhos são marcados por ela estética blackwork, com cores escuras, linhas fortes, detalhes intricados</p>
                 <img class="u-image u-image-default u-image-1" src="images/435334753_17900562737970231_8711091719874878337_n.jpg" alt="" data-image-width="1440" data-image-height="1800">
               </div>
@@ -227,7 +227,7 @@
                       <style data-mode="LG"></style>
                       <style data-mode="MD"></style>
                       <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
+                      <style data-mode="XS" data-visited="true"></style>
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-3">
                       <div class="u-back-slide">
@@ -238,7 +238,7 @@
                       <style data-mode="LG"></style>
                       <style data-mode="MD"></style>
                       <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
+                      <style data-mode="XS" data-visited="true"></style>
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-4">
                       <div class="u-back-slide">
@@ -249,7 +249,7 @@
                       <style data-mode="LG"></style>
                       <style data-mode="MD"></style>
                       <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
+                      <style data-mode="XS" data-visited="true"></style>
                     </div>
                     <div class="u-carousel-item u-gallery-item u-carousel-item-5">
                       <div class="u-back-slide">
@@ -260,7 +260,7 @@
                       <style data-mode="LG"></style>
                       <style data-mode="MD"></style>
                       <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
+                      <style data-mode="XS" data-visited="true"></style>
                     </div>
                   </div>
                   <a class="u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-dd75" role="button" data-u-slide="prev">
@@ -486,11 +486,52 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
 
 @media (max-width: 991px) {
   .u-cookies-consent .u-sheet-1 {
+    min-height: 73px;
+  }
+
+  .u-cookies-consent .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-cookies-consent .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-cookies-consent .u-layout-cell-2 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 265px;
+  }
+
+  .u-cookies-consent .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .u-cookies-consent .u-container-layout-2 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-cookies-consent .u-sheet-1 {
     min-height: 191px;
   }
 
   .u-cookies-consent .u-layout-cell-1 {
     min-height: 191px;
+  }
+
+  .u-cookies-consent .u-container-layout-1 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 16px;
   }
 
   .u-cookies-consent .u-text-1 {
@@ -505,50 +546,16 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
     min-height: 191px;
   }
 
-  .u-cookies-consent .u-btn-2 {
-    margin-left: 20px;
-  }
-
-  .u-cookies-consent .u-btn-3 {
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-cookies-consent .u-sheet-1 {
-    min-height: 265px;
-  }
-
-  .u-cookies-consent .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-cookies-consent .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-
-  .u-cookies-consent .u-layout-cell-2 {
-    min-height: 100px;
-  }
-
   .u-cookies-consent .u-container-layout-2 {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-cookies-consent .u-text-2 {
-    margin-right: 0;
+    padding: 21px 15px;
   }
 
   .u-cookies-consent .u-btn-2 {
-    margin-left: 0;
+    margin-left: 20px;
   }
 
   .u-cookies-consent .u-btn-3 {
-    margin-left: 0;
+    margin-left: 20px;
   }
 }</style></section>
   
