@@ -67,7 +67,11 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 579px;
+    min-height: 1333px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 15px;
   }
 
   .u-section-1 .u-image-1 {
@@ -78,7 +82,11 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 969px;
+    min-height: 1206px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 30px;
   }
 
   .u-section-1 .u-layout-cell-1 {
