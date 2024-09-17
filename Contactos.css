@@ -142,7 +142,7 @@
 }
 
 .u-section-1 .u-text-10 {
-  margin: 97px auto 0 26px;
+  margin: 96px auto 0 36px;
 }
 
 .u-section-1 .u-icon-5 {
@@ -152,7 +152,7 @@
 .u-section-1 .u-form-1 {
   height: 497px;
   --checkbox-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
-  margin: 21px 0 0 48px;
+  margin: 22px 22px 0 26px;
 }
 
 .u-section-1 .u-label-1 {
@@ -195,7 +195,7 @@
 
 .u-section-1 .u-text-11 {
   font-size: 1rem;
-  margin: -13px 185px 0 auto;
+  margin: -20px auto 0;
 }
 
 .u-section-1 .u-btn-4 {
@@ -240,6 +240,7 @@
     width: 426px;
     margin-top: 25px;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-11 {
@@ -315,7 +316,14 @@
     padding-left: 21px;
   }
 
+  .u-section-1 .u-text-10 {
+    width: auto;
+    margin-top: 95px;
+    margin-left: 13px;
+  }
+
   .u-section-1 .u-form-1 {
+    margin-top: 26px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -379,11 +387,11 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 536px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin-top: 0;
+  margin-top: 36px;
   margin-bottom: 0;
 }
 
@@ -393,6 +401,12 @@
 
 .u-section-2 .u-container-layout-1 {
   padding: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 500px;
+  }
 }
 
 @media (max-width: 991px) {
