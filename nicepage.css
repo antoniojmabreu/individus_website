@@ -43126,13 +43126,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 158px;
+  min-height: 225px;
+}
+
+.u-footer .u-line-1 {
+  border-style: solid;
+  transform-origin: right center;
+  margin-top: 45px;
+  margin-bottom: 0;
 }
 
 .u-footer .u-image-1 {
   width: 164px;
   height: 65px;
-  margin: 34px auto 0 289px;
+  margin: 44px 687px 0 289px;
 }
 
 .u-footer .u-text-1 {
@@ -43168,19 +43175,42 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 41px auto 12px;
 }
 @media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 247px;
+  }
+
+  .u-footer .u-line-1 {
+    margin-top: 52px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: 49px;
+    margin-right: 587px;
+    margin-left: 189px;
+  }
+
   .u-footer .u-text-1 {
     margin-top: -61px;
     margin-right: 215px;
     margin-left: 587px;
   }
+
+  .u-footer .u-text-2 {
+    margin-bottom: 12px;
+  }
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 201px;
+    min-height: 232px;
+  }
+
+  .u-footer .u-line-1 {
+    margin-top: 45px;
   }
 
   .u-footer .u-image-1 {
-    margin-top: 43px;
+    margin-top: 49px;
+    margin-right: 435px;
     margin-left: 121px;
   }
 
@@ -43193,16 +43223,21 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-2 {
     margin-top: 54px;
-    margin-bottom: 33px;
+    margin-bottom: -10px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 179px;
+    min-height: 231px;
+  }
+
+  .u-footer .u-line-1 {
+    margin-top: 41px;
   }
 
   .u-footer .u-image-1 {
-    margin-top: 42px;
+    margin-top: 48px;
+    margin-right: 350px;
     margin-left: 26px;
   }
 
@@ -43218,16 +43253,17 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-2 {
     margin-top: 50px;
-    margin-bottom: 16px;
+    margin-bottom: -5px;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 193px;
+  .u-footer .u-line-1 {
+    margin-top: 0;
   }
 
   .u-footer .u-image-1 {
-    margin-top: 20px;
+    margin-top: 36px;
+    margin-right: 176px;
     margin-left: 20px;
   }
 
@@ -43243,7 +43279,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-2 {
     width: auto;
-    margin: 30px 0 11px;
+    margin: 30px 0 -24px;
   }
 }
 
