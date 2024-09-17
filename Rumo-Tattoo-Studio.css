@@ -30,6 +30,7 @@
 }
 
 .u-section-1 .u-text-1 {
+  font-size: 3rem;
   margin: 30px auto 0;
 }
 
@@ -106,6 +107,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -115,6 +120,10 @@
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 200px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 630px;
