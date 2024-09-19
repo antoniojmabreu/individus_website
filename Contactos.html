@@ -119,41 +119,29 @@
                   <p class="u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-10"><span class="u-file-icon u-icon u-text-palette-4-dark-1 u-icon-5"><img src="images/2099199-f6f7c040.png" alt=""></span>&nbsp; <span class="u-icon"></span>&nbsp;​individusparlour@gmail.com
                   </p>
                   <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
-                    <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">
-                      <div class="u-form-email u-form-group">
-                        <label class="u-form-control-hidden u-label u-text-body-alt-color u-label-1"></label>
-                        <input type="email" placeholder="Email" id="email-319a" name="email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-1" required="">
+                    <form action="send_email.php" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px">
+                      <div class="u-form-group">
+                        <input type="email" name="email" placeholder="Email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-1" required>
                       </div>
-                      <div class="u-form-group u-form-name u-form-partition-factor-2">
-                        <label class="u-form-control-hidden u-label u-text-body-alt-color u-label-2"></label>
-                        <input type="text" placeholder="Nome" id="name-319a" name="name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-2" required="">
+                      <div class="u-form-group">
+                        <input type="text" name="name" placeholder="Nome" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-2" required>
                       </div>
-                      <div class="u-form-group u-form-partition-factor-2 u-form-phone u-form-group-3">
-                        <label class="u-form-control-hidden u-label u-text-body-alt-color u-label-3"></label>
-                        <input type="tel" placeholder="Telemóvel (Opcional)" id="text-6a31" name="text" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-3" data-country-code="pt">
+                      <div class="u-form-group">
+                        <input type="tel" name="phone" placeholder="Telemóvel (Opcional)" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-3">
                       </div>
-                      <div class="u-form-group u-form-message">
-                        <label class="u-form-control-hidden u-label u-text-body-alt-color u-label-4"></label>
-                        <textarea placeholder="Mensagem" id="message-319a" name="message" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-4" required=""></textarea>
+                      <div class="u-form-group">
+                        <textarea name="message" placeholder="Mensagem" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-radius u-input-4" required></textarea>
                       </div>
-                      <div class="u-form-checkbox-group u-form-group u-form-group-5">
-                        <label class="u-form-control-hidden u-label u-text-body-alt-color u-label-5"></label>
-                        <div class="u-form-checkbox-group-wrapper">
-                          <div class="u-input-row">
-                            <input id="field-4c76" type="checkbox" name="checkbox[]" value="Dou o consentimento ao tratamento dos meus dados. Se tiveres dúvidas consulta a nossa Política de Privacidade" class="u-active-palette-1-base u-field-input u-grey-25" required="required" data-calc="">
-                            <label class="u-field-label">Dou o consentimento ao tratamento dos meus dados. Se tiveres dúvidas consulta a nossa Política de Privacidade</label>
-                          </div>
+                      <div class="u-form-checkbox-group u-form-group">
+                        <div class="u-input-row">
+                          <input type="checkbox" name="consent" value="consent" class="u-active-palette-1-base u-field-input u-grey-25" required>
+                          <label>Dou o consentimento ao tratamento dos meus dados.</label>
                         </div>
                       </div>
-                      <div class="u-align-left u-form-group u-form-submit">
-                        <a href="#" class="u-active-white u-border-none u-btn u-btn-round u-btn-submit u-button-style u-grey-75 u-hover-palette-4-dark-2 u-radius-50 u-btn-3">Enviar</a>
-                        <input type="submit" value="submit" class="u-form-control-hidden">
+                      <div class="u-form-group u-form-submit">
+                        <button type="submit" class="u-active-white u-border-none u-btn u-btn-round u-btn-submit u-button-style u-grey-75 u-hover-palette-4-dark-2 u-radius-50 u-btn-3">Enviar</button>
                       </div>
-                      <div class="u-form-send-message u-form-send-success">Obrigado! A tua mensagem foi enviada.</div>
-                      <div class="u-form-send-error u-form-send-message">Não foi possível enviar a mensagem. Por favor, verifica os erros e tenta de novo.</div>
-                      <input type="hidden" value="" name="recaptchaResponse">
-                      <input type="hidden" name="formServices" value="a35ddee2-9f04-3a59-e742-7e7ae5c9da33">
-                    </form>
+                    </form>                    
                   </div>
                   <p class="u-text u-text-default u-text-11">
                     <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-4" data-href="Politica-de-Privacidade.html">Política de Privacidade</a>
